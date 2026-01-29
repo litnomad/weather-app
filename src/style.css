@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#week {
+  display: flex;
+}
+
+#week > div {
+  flex-basis: 25%;
+  font-size: 12px;
+}
+
+#boxing {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+#userSearch {
+  align-self: flex-end;
+}
+
+#weatherApp {
+  border: 1px solid grey;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.condition_image {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
